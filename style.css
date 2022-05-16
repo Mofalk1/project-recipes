@@ -1,0 +1,62 @@
+p {
+    color: green;
+}
+
+.ulist.recipe {
+    font-size: 60px;
+    font-family: "Times New Roman", sans-serif;
+    color: rgb(211, 68, 111)
+}
+
+.header {
+    font-size: 40px;
+    font-family: "Times New Roman", sans-serif;
+    color: rgb(30, 209, 69);
+}
+
+body {
+    background-color: black;
+}
+.ulist {
+    color: green;
+    font-size: 30px;
+}
+.para {
+    font-size:20px ;
+    color: orange;
+}
+.olist {
+    font-size: 30px;
+    color: orange;
+}
+.homepage {
+    font-size: 20px;
+    color: rgb(150, 218, 147);
+}
+#lasaga {
+    column-rule: 10cm;
+    font-weight: 900;
+    font-size: 60px;
+}
+#italian {
+    font-size: 80px;
+    color: red;
+    position: relative;
+    left: 500px;
+    border: 3px solid;
+    bottom: 200px;
+}
+.header.lasaga {
+    position: relative;
+    bottom: 500px;
+    transform: rotate(-45deg);
+}
+@keyframes italy {
+    0% {background-color: red;}
+    100% {background-color: blue;}
+}
+.header.lasaga {
+    animation-name: italy;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
